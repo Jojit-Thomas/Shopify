@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1711215341967980a4": {
+      "type": "apps",
+      "blocks": {
+        "shopbnb_dev_featured_listing_mxJaVg": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listing\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "settings": {
+            "product": "nearly-12-000-sq-feet-of-unparalleled-luxury"
+          }
+        }
+      },
+      "block_order": [
+        "shopbnb_dev_featured_listing_mxJaVg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17112153469f7c7563": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1711215341967980a4",
+    "17112153469f7c7563"
+  ]
+}
