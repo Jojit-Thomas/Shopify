@@ -1,4 +1,12 @@
-
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "search_HFNwM6": {
@@ -14,7 +22,7 @@
         "listing-per-row": 4,
         "listing-per-page": 8,
         "search-button-color": "#ef3b3e",
-        "search-icon-color": "#fff",
+        "search-icon-color": "#ffffff",
         "card-border-radius": 10,
         "search-bar-border-radius": 999,
         "search-input-border-radius": 10,
@@ -128,6 +136,7 @@
         "shopbnb_dev_bundled_bookings_LRrr4r",
         "shopbnb_dev_featured_listing_niARKD"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
