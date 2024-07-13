@@ -135,7 +135,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "hydrogen",
-    "shopbnb_host": "http:\/\/3004-dev.jojit.in\/dist",
+    "shopbnb_host": "http:\/\/localhost:3004\/dist",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
