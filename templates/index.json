@@ -80,7 +80,7 @@
             "show-type-selection": true,
             "type-selection": "COMMON",
             "show-badge": true,
-            "show-search-bar": false,
+            "show-search-bar": true,
             "heading": "",
             "listing-per-row": 4,
             "listing-per-page": 8,
