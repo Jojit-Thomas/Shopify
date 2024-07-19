@@ -133,7 +133,7 @@
     "17214106309678ac65": {
       "type": "apps",
       "blocks": {
-        "shopbnb_dev_featured_listings_slider_QMUTmF": {
+        "shopbnb_dev_featured_listings_slider_Ne9RiQ": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listings_slider\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "heading": "Featured Listings",
@@ -147,7 +147,7 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_featured_listings_slider_QMUTmF"
+        "shopbnb_dev_featured_listings_slider_Ne9RiQ"
       ],
       "settings": {
         "include_margins": true
