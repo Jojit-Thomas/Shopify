@@ -132,8 +132,14 @@
     },
     "17214106309678ac65": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17214196937188c186": {
+      "type": "apps",
       "blocks": {
-        "shopbnb_dev_featured_listings_slider_Ne9RiQ": {
+        "shopbnb_dev_featured_listings_slider_Ee8nxa": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listings_slider\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "heading": "Featured Listings",
@@ -154,7 +160,7 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_featured_listings_slider_Ne9RiQ"
+        "shopbnb_dev_featured_listings_slider_Ee8nxa"
       ],
       "settings": {
         "include_margins": true
@@ -165,6 +171,7 @@
     "shopbnb_ai_home_kmcpMK",
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "171877572440b42c98",
-    "17214106309678ac65"
+    "17214106309678ac65",
+    "17214196937188c186"
   ]
 }
