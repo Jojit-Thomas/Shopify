@@ -117,12 +117,25 @@
           "settings": {
             "product": "pristine-hills-home-stay"
           }
+        },
+        "shopbnb_dev_featured_listings_slider_XLr6At": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listings_slider\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "settings": {
+            "heading": "Featured Listings",
+            "listings": [
+              "dj-bnb-live-ticket-event",
+              "nearly-12-000-sq-feet-of-unparalleled-luxury",
+              "pristine-hills-home-stay",
+              "rainbow-villa-shoowa-cape-yamu-luxury-sea-view-villa-with-butler-maid-breakfast"
+            ]
+          }
         }
       },
       "block_order": [
         "shopbnb_dev_search_listing_section_6ry7C3",
         "shopbnb_dev_bundled_bookings_LRrr4r",
-        "shopbnb_dev_featured_listing_niARKD"
+        "shopbnb_dev_featured_listing_niARKD",
+        "shopbnb_dev_featured_listings_slider_XLr6At"
       ],
       "settings": {
         "include_margins": true
