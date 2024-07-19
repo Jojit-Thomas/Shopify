@@ -145,7 +145,11 @@
               "testing-hotels",
               "testing-tickets",
               "the-naked-house"
-            ]
+            ],
+            "show-badge": false,
+            "is-slider": true,
+            "listing-per-row": 4,
+            "container-width": "limitWidth"
           }
         }
       },
