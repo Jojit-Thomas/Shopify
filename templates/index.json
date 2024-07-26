@@ -21,6 +21,7 @@
       "blocks": {
         "shopbnb_dev_bundled_bookings_LRrr4r": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/bundled_bookings\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
             "destination": false,
             "auto_skip": true,
@@ -40,13 +41,14 @@
         },
         "shopbnb_dev_search_listing_section_6ry7C3": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "disabled": true,
           "settings": {
             "destination": false,
             "show-type-selection": true,
             "type-selection": "COMMON",
             "show-badge": true,
             "show-search-bar": true,
+            "tags": true,
+            "filter-by-tag": "",
             "heading": "",
             "listing-per-row": 4,
             "listing-per-page": 8,
