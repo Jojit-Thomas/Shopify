@@ -40,6 +40,7 @@
         },
         "shopbnb_dev_search_listing_section_6ry7C3": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
             "destination": false,
             "show-type-selection": true,
@@ -110,6 +111,7 @@
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
