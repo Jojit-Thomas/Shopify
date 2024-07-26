@@ -26,6 +26,8 @@
             "auto_skip": true,
             "step_settings": "show_both_experience_then_stay",
             "type-selection": "COMMON",
+            "tags": true,
+            "filter-by-tag": "",
             "show-badge": true,
             "search-button-color": "#4f6f52",
             "search-icon-color": "#ffffff",
