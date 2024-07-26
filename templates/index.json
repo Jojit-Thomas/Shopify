@@ -47,7 +47,7 @@
             "type-selection": "COMMON",
             "show-badge": true,
             "show-search-bar": true,
-            "tags": true,
+            "tags": false,
             "filter-by-tag": "Universal studio",
             "heading": "",
             "listing-per-row": 4,
