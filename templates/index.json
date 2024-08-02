@@ -43,11 +43,11 @@
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "destination": false,
-            "show-type-selection": true,
+            "show-type-selection": false,
             "type-selection": "COMMON",
             "show-badge": true,
             "show-search-bar": true,
-            "tags": false,
+            "tags": true,
             "filter-by-tag": "",
             "heading": "",
             "listing-per-row": 4,
