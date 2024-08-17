@@ -16,69 +16,6 @@
         "redirect-to": "\/pages\/search"
       }
     },
-    "171877572440b42c98": {
-      "type": "apps",
-      "blocks": {
-        "shopbnb_dev_bundled_bookings_LRrr4r": {
-          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/bundled_bookings\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "disabled": true,
-          "settings": {
-            "destination": false,
-            "auto_skip": true,
-            "step_settings": "show_both_experience_then_stay",
-            "type-selection": "COMMON",
-            "tags": true,
-            "filter-by-tag": "",
-            "show-badge": true,
-            "search-button-color": "#4f6f52",
-            "search-icon-color": "#ffffff",
-            "card-border-radius": 10,
-            "search-bar-border-radius": 999,
-            "search-input-border-radius": 10,
-            "container-width": "limitWidth",
-            "search-bar-box-shadow": false
-          }
-        },
-        "shopbnb_dev_search_listing_section_6ry7C3": {
-          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "settings": {
-            "destination": false,
-            "template": "default",
-            "show-type-selection": false,
-            "type-selection": "COMMON",
-            "show-badge": true,
-            "show-search-bar": true,
-            "tags": true,
-            "filter-by-tag": "Hotels,Orlando",
-            "heading": "",
-            "listing-per-row": 4,
-            "listing-per-page": 8,
-            "search-button-color": "#ef3b3e",
-            "search-icon-color": "#ffffff",
-            "card-border-radius": 10,
-            "search-bar-border-radius": 999,
-            "search-input-border-radius": 10,
-            "container-width": "limitWidth",
-            "search-bar-box-shadow": true
-          }
-        },
-        "shopbnb_dev_featured_listing_niARKD": {
-          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listing\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "disabled": true,
-          "settings": {
-            "product": "pristine-hills-home-stay"
-          }
-        }
-      },
-      "block_order": [
-        "shopbnb_dev_bundled_bookings_LRrr4r",
-        "shopbnb_dev_search_listing_section_6ry7C3",
-        "shopbnb_dev_featured_listing_niARKD"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
       "type": "image-banner",
       "blocks": {
@@ -173,55 +110,77 @@
         "include_margins": true
       }
     },
-    "rich_text_QJA349": {
-      "type": "rich-text",
+    "171877572440b42c98": {
+      "type": "apps",
       "blocks": {
-        "heading_Ep6UHN": {
-          "type": "heading",
+        "shopbnb_dev_bundled_bookings_LRrr4r": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/bundled_bookings\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "destination": false,
+            "auto_skip": true,
+            "step_settings": "show_both_experience_then_stay",
+            "type-selection": "COMMON",
+            "tags": true,
+            "filter-by-tag": "",
+            "show-badge": true,
+            "search-button-color": "#4f6f52",
+            "search-icon-color": "#ffffff",
+            "card-border-radius": 10,
+            "search-bar-border-radius": 999,
+            "search-input-border-radius": 10,
+            "container-width": "limitWidth",
+            "search-bar-box-shadow": false
           }
         },
-        "text_nc6WmK": {
-          "type": "text",
+        "shopbnb_dev_search_listing_section_6ry7C3": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "destination": false,
+            "template": "default",
+            "show-type-selection": false,
+            "type-selection": "COMMON",
+            "show-badge": true,
+            "show-search-bar": true,
+            "tags": true,
+            "filter-by-tag": "Hotels,Orlando",
+            "heading": "",
+            "listing-per-row": 4,
+            "listing-per-page": 8,
+            "search-button-color": "#ef3b3e",
+            "search-icon-color": "#ffffff",
+            "card-border-radius": 10,
+            "search-bar-border-radius": 999,
+            "search-input-border-radius": 10,
+            "container-width": "limitWidth",
+            "search-bar-box-shadow": true
           }
         },
-        "button_m3zBzY": {
-          "type": "button",
+        "shopbnb_dev_featured_listing_niARKD": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/featured_listing\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "product": "pristine-hills-home-stay"
           }
         }
       },
       "block_order": [
-        "heading_Ep6UHN",
-        "text_nc6WmK",
-        "button_m3zBzY"
+        "shopbnb_dev_bundled_bookings_LRrr4r",
+        "shopbnb_dev_search_listing_section_6ry7C3",
+        "shopbnb_dev_featured_listing_niARKD"
       ],
+      "disabled": true,
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "include_margins": true
       }
     }
   },
   "order": [
     "shopbnb_ai_home_kmcpMK",
-    "171877572440b42c98",
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "17214106309678ac65",
     "17214196937188c186",
-    "rich_text_QJA349"
+    "171877572440b42c98"
   ]
 }
