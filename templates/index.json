@@ -21,7 +21,7 @@
             "type-selection": "COMMON",
             "show-badge": true,
             "show-search-bar": true,
-            "tags": false,
+            "tags": true,
             "filter-by-tag": "",
             "heading": "Stays",
             "listing-per-row": 4,
