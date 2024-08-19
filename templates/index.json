@@ -21,7 +21,7 @@
             "type-selection": "COMMON",
             "show-badge": true,
             "show-search-bar": true,
-            "tags": true,
+            "tags": false,
             "filter-by-tag": "1-Day Tickets",
             "heading": "Stays",
             "listing-per-row": 4,
