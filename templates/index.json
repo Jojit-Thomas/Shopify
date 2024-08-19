@@ -15,7 +15,7 @@
         "shopbnb_dev_search_listing_section_M6MTfX": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
-            "destination": false,
+            "destination": true,
             "template": "sleek",
             "show-type-selection": true,
             "type-selection": "COMMON",
