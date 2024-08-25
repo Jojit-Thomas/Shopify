@@ -12,7 +12,7 @@
     "17214106309678ac65": {
       "type": "apps",
       "blocks": {
-        "shopbnb_dev_search_section_YPRpck": {
+        "shopbnb_dev_search_section_V8bMJg": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "destination": false,
@@ -52,7 +52,7 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_search_section_YPRpck",
+        "shopbnb_dev_search_section_V8bMJg",
         "shopbnb_dev_search_listing_section_M6MTfX"
       ],
       "settings": {
