@@ -9,14 +9,15 @@
 */
 {
   "sections": {
-    "17214106309678ac65": {
+    "1724579751aa04f24f": {
       "type": "apps",
       "blocks": {
-        "shopbnb_dev_search_section_V8bMJg": {
+        "shopbnb_dev_search_section_wmHiQA": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "destination": false,
             "show-type-selection": true,
+            "redirect-to": "\/a\/bnb\/stays",
             "type-selection": "COMMON",
             "tags": false,
             "filter-by-tag": "",
@@ -26,7 +27,18 @@
             "search-input-border-radius": 10,
             "search-bar-box-shadow": true
           }
-        },
+        }
+      },
+      "block_order": [
+        "shopbnb_dev_search_section_wmHiQA"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17214106309678ac65": {
+      "type": "apps",
+      "blocks": {
         "shopbnb_dev_search_listing_section_M6MTfX": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
@@ -52,15 +64,16 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_search_section_V8bMJg",
         "shopbnb_dev_search_listing_section_M6MTfX"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
     },
     "shopbnb_ai_home_kmcpMK": {
       "type": "shopbnb_ai_home",
+      "disabled": true,
       "settings": {
         "container-width": "fullWidth",
         "redirect-to": "\/pages\/search"
@@ -187,6 +200,7 @@
     }
   },
   "order": [
+    "1724579751aa04f24f",
     "17214106309678ac65",
     "shopbnb_ai_home_kmcpMK",
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
