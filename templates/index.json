@@ -12,6 +12,21 @@
     "17214106309678ac65": {
       "type": "apps",
       "blocks": {
+        "shopbnb_dev_search_section_yj3rEG": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "settings": {
+            "destination": false,
+            "show-type-selection": true,
+            "type-selection": "COMMON",
+            "tags": false,
+            "filter-by-tag": "",
+            "search-button-color": "#ef3b3e",
+            "search-icon-color": "#fff",
+            "search-bar-border-radius": 999,
+            "search-input-border-radius": 10,
+            "search-bar-box-shadow": true
+          }
+        },
         "shopbnb_dev_search_listing_section_M6MTfX": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
@@ -34,26 +49,11 @@
             "container-width": "limitWidth",
             "search-bar-box-shadow": false
           }
-        },
-        "shopbnb_dev_search_section_zVj8zi": {
-          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "settings": {
-            "destination": false,
-            "show-type-selection": true,
-            "type-selection": "COMMON",
-            "tags": false,
-            "filter-by-tag": "",
-            "search-button-color": "#ef3b3e",
-            "search-icon-color": "#fff",
-            "search-bar-border-radius": 999,
-            "search-input-border-radius": 10,
-            "search-bar-box-shadow": true
-          }
         }
       },
       "block_order": [
-        "shopbnb_dev_search_listing_section_M6MTfX",
-        "shopbnb_dev_search_section_zVj8zi"
+        "shopbnb_dev_search_section_yj3rEG",
+        "shopbnb_dev_search_listing_section_M6MTfX"
       ],
       "settings": {
         "include_margins": true
