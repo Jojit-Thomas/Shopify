@@ -12,6 +12,30 @@
     "1724579751aa04f24f": {
       "type": "apps",
       "blocks": {
+        "shopbnb_dev_search_listing_section_pR6d48": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "settings": {
+            "destination": false,
+            "template": "default",
+            "show-type-selection": true,
+            "type-selection": "COMMON",
+            "show-badge": true,
+            "show-search-bar": true,
+            "tags": false,
+            "filter-by-tag": "",
+            "heading": "Stays",
+            "redirect-to": "",
+            "listing-per-row": 4,
+            "listing-per-page": 8,
+            "search-button-color": "#ef3b3e",
+            "search-icon-color": "#fff",
+            "card-border-radius": 10,
+            "search-bar-border-radius": 999,
+            "search-input-border-radius": 10,
+            "container-width": "limitWidth",
+            "search-bar-box-shadow": false
+          }
+        },
         "shopbnb_dev_search_section_jNarzw": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
@@ -30,6 +54,7 @@
         }
       },
       "block_order": [
+        "shopbnb_dev_search_listing_section_pR6d48",
         "shopbnb_dev_search_section_jNarzw"
       ],
       "settings": {
