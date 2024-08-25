@@ -12,12 +12,12 @@
     "1724579751aa04f24f": {
       "type": "apps",
       "blocks": {
-        "shopbnb_dev_search_section_wmHiQA": {
+        "shopbnb_dev_search_section_jNarzw": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
             "destination": false,
             "show-type-selection": true,
-            "redirect-to": "\/a\/bnb\/stays",
+            "redirect-to": "",
             "type-selection": "COMMON",
             "tags": false,
             "filter-by-tag": "",
@@ -30,7 +30,7 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_search_section_wmHiQA"
+        "shopbnb_dev_search_section_jNarzw"
       ],
       "settings": {
         "include_margins": true
