@@ -29,6 +29,7 @@
       "block_order": [
         "shopbnb_dev_featured_listing_mxJaVg"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
