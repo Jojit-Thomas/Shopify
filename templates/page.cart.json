@@ -24,10 +24,17 @@
           "settings": {
             "product": "nearly-12-000-sq-feet-of-unparalleled-luxury"
           }
+        },
+        "shopbnb_dev_cart_7dfP8p": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/cart\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "settings": {
+            "container-width": "limitWidth"
+          }
         }
       },
       "block_order": [
-        "shopbnb_dev_featured_listing_mxJaVg"
+        "shopbnb_dev_featured_listing_mxJaVg",
+        "shopbnb_dev_cart_7dfP8p"
       ],
       "disabled": true,
       "settings": {
