@@ -1,22 +1,36 @@
 {
   "sections": {
-    "main-cart": {
-      "type": "main-cart",
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
       "blocks": {
-        "cart-items": {
-          "type": "cart-items",
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
           "settings": {
           }
         }
       },
       "block_order": [
-        "cart-items"
+        "subtotal",
+        "buttons"
       ],
       "settings": {
       }
     }
   },
   "order": [
-    "main-cart"
+    "cart-items",
+    "cart-footer"
   ]
 }

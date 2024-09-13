@@ -1,21 +1,20 @@
-<div class="container container--vertical-space {% unless section.settings.full_width %} container--large {% else %} container--fullwidth {% endunless %}">
-  {%- liquid
-    for block in section.blocks
-      render block
-    endfor
-  -%}
+<div class="{% if section.settings.include_margins %}page-width{% endif %}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
 </div>
 
 {% schema %}
 {
   "name": "t:sections.apps.name",
-  "class": "mount-app",
+  "tag": "section",
+  "class": "section",
   "settings": [
     {
       "type": "checkbox",
-      "id": "full_width",
-      "label": "t:sections.image.fullwidth",
-      "default": false
+      "id": "include_margins",
+      "default": true,
+      "label": "t:sections.apps.settings.include_margins.label"
     }
   ],
   "blocks": [

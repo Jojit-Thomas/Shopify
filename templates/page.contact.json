@@ -1,74 +1,25 @@
 {
   "sections": {
     "main": {
-      "type": "contact-form",
-      "blocks": {
-        "text_xLDe6y": {
-          "type": "text",
-          "settings": {
-            "title": "Contact information",
-            "content": "<p>Write some useful information about your business, contact information or links to various FAQ pages.<\/p>"
-          }
-        },
-        "dbd2651f-3114-424a-96b9-004af3df2704": {
-          "type": "text",
-          "settings": {
-            "title": "WHAT TYPE OF SERVICE CAN WE HELP YOU WITH?",
-            "content": "<h5>Here is where you enter your grocery list. There are only a few items in our online store for fast delivery. Your order will be added, and you'll get an invoice with a link for making payment. We will make arrangements for it to be put away prior to your arrival or delivered during check in. <\/h5><h5>Custom grocery orders are $16.95 delivery fee up to a $300 order and a 6% flat rate their after.<\/h5><h5>Custom pickup and luggage carry, range in price from $35 to $65.<\/h5><h5><br\/><\/h5><h5><\/h5><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_xLDe6y",
-        "dbd2651f-3114-424a-96b9-004af3df2704"
-      ],
-      "custom_css": [
-        "{background-color: #cecece;}"
-      ],
+      "type": "main-page",
       "settings": {
-        "heading": "Your Grocery List & Other Requests",
-        "show_phone": true,
-        "show_subject": false
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "17981186-fc16-4175-a549-c4d9231e997a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15040978550827__17981186-fc16-4175-a549-c4d9231e997a-168390846125d1ef18-0": {
-          "type": "title",
-          "settings": {
-            "title": "Contact Support:",
-            "title_size": "h3"
-          }
-        },
-        "template--15040978550827__17981186-fc16-4175-a549-c4d9231e997a-168390846125d1ef18-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>hello@marcoroomservice.com<\/p>",
-            "text_size": "regular"
-          }
-        }
-      },
-      "block_order": [
-        "template--15040978550827__17981186-fc16-4175-a549-c4d9231e997a-168390846125d1ef18-0",
-        "template--15040978550827__17981186-fc16-4175-a549-c4d9231e997a-168390846125d1ef18-1"
-      ],
+    "form": {
+      "type": "contact-form",
       "settings": {
-        "image_position": "top no-image",
-        "height": "small",
-        "image_crop": true,
-        "is_fullwidth": false,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "17981186-fc16-4175-a549-c4d9231e997a"
+    "form"
   ]
 }
