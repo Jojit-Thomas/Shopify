@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "8ea471b4-1244-4fcc-99cf-8d2f353a4dd1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15045869600811__8ea471b4-1244-4fcc-99cf-8d2f353a4dd1-167831259147af9c1a-0": {
+          "type": "title",
+          "settings": {
+            "title": "Get Connected with A Concierge Shopper",
+            "title_size": "h2"
+          }
+        },
+        "template--15045869600811__8ea471b4-1244-4fcc-99cf-8d2f353a4dd1-167831259147af9c1a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please fill out the form below and you will be assigned to a concierge shopper that will contact you before your arrival date to coordinate times and specifications. We are proud to offer a complimentary white glove service for shopping groceries, booking reservations for restaurants, charters, and or cruises.<\/p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--15045869600811__8ea471b4-1244-4fcc-99cf-8d2f353a4dd1-167831259147af9c1a-0",
+        "template--15045869600811__8ea471b4-1244-4fcc-99cf-8d2f353a4dd1-167831259147af9c1a-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": true
+      }
+    },
+    "16704409544ea08e5c": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "8ea471b4-1244-4fcc-99cf-8d2f353a4dd1",
+    "main",
+    "16704409544ea08e5c"
+  ]
+}
