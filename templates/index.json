@@ -14,6 +14,7 @@
       "blocks": {
         "shopbnb_dev_search_listing_section_pR6d48": {
           "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
             "destination": false,
             "template": "default",
@@ -35,35 +36,19 @@
             "container-width": "limitWidth",
             "search-bar-box-shadow": false
           }
-        }
-      },
-      "block_order": [
-        "shopbnb_dev_search_listing_section_pR6d48"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17214106309678ac65": {
-      "type": "apps",
-      "blocks": {
-        "shopbnb_dev_search_listing_section_M6MTfX": {
-          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+        },
+        "shopbnb_dev_bundled_bookings_tBHnzc": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/bundled_bookings\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
           "settings": {
-            "destination": true,
-            "template": "sleek",
-            "show-type-selection": true,
+            "destination": false,
+            "auto_skip": false,
+            "step_settings": "show_both_experience_then_stay",
             "type-selection": "COMMON",
+            "tags": false,
+            "filter-by-tag": "",
             "show-badge": true,
-            "show-search-bar": true,
-            "tags": true,
-            "filter-by-tag": "1-Day Tickets, Universal studio",
-            "heading": "Stays",
-            "redirect-to": "\/a\/bnb\/listings",
-            "listing-per-row": 4,
-            "listing-per-page": 8,
             "search-button-color": "#ef3b3e",
-            "search-icon-color": "#ffffff",
+            "search-icon-color": "#fff",
             "card-border-radius": 10,
             "search-bar-border-radius": 999,
             "search-input-border-radius": 10,
@@ -73,9 +58,9 @@
         }
       },
       "block_order": [
-        "shopbnb_dev_search_listing_section_M6MTfX"
+        "shopbnb_dev_search_listing_section_pR6d48",
+        "shopbnb_dev_bundled_bookings_tBHnzc"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -211,7 +196,6 @@
   },
   "order": [
     "1724579751aa04f24f",
-    "17214106309678ac65",
     "shopbnb_ai_home_kmcpMK",
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "171877572440b42c98"
