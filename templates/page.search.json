@@ -28,7 +28,7 @@
         "heading": "",
         "redirect-to": "/pages/listing-page",
         "listing-per-row": 8,
-        "listing-per-page": 8,
+        "listing-per-page": 20,
         "search-button-color": "#ef3b3e",
         "search-icon-color": "#ffffff",
         "card-border-radius": 10,
