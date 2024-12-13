@@ -217,7 +217,7 @@
     "shopbnb_ai_home_dTP9AK": {
       "type": "shopbnb_ai_home",
       "settings": {
-        "container-width": "limitWidth",
+        "container-width": "fullWidth",
         "redirect-to": "/a/bnb/listings"
       }
     }
