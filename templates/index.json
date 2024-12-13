@@ -218,7 +218,7 @@
       "type": "shopbnb_ai_home",
       "settings": {
         "container-width": "fullWidth",
-        "redirect-to": "/a/bnb/listings"
+        "redirect-to": "/pages/listings"
       }
     }
   },
