@@ -26,7 +26,7 @@
         "show-badge": true,
         "show-search-bar": true,
         "heading": "Stays",
-        "redirect-to": "/a/bnb/listings",
+        "redirect-to": "/pages/listings",
         "listing-per-row": 8,
         "listing-per-page": 8,
         "search-button-color": "#ef3b3e",
