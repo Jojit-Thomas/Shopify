@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 50,
@@ -115,8 +115,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "brand_headline": "© 2023 \/ Shopify, Inc.",
-    "brand_description": "<p>©2023\/ Shopify, Inc.<\/p>",
+    "brand_headline": "© 2023 / Shopify, Inc.",
+    "brand_description": "<p>©2023/ Shopify, Inc.</p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -135,36 +135,29 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "hydrogen",
-    "shopbnb_host": "http:\/\/localhost:3004",
+    "shopbnb_host": "https://3004-dev.jojit.in",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
-        "settings": {
-          "color_scheme": "background-1"
-        }
+        "settings": {}
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": {
-          "color_scheme": "background-1"
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "16893408973407606025": {
-        "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/chat\/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+        "type": "shopify://apps/shopbnb-dev/blocks/chat/72772b25-4dc1-44d2-be7e-e3bc439206f3",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
   "presets": {
     "Default": {
-      "shopbnb_host": "http:\/\/localhost:3004\/dist",
+      "shopbnb_host": "http://localhost:3004/dist",
       "logo_width": 50,
       "colors_solid_button_labels": "#ffffff",
       "colors_accent_1": "#121212",
@@ -271,8 +264,8 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "accent_icons": "text",
-      "brand_headline": "© 2023 \/ Shopify, Inc.",
-      "brand_description": "<p>©2023\/ Shopify, Inc.<\/p>",
+      "brand_headline": "© 2023 / Shopify, Inc.",
+      "brand_description": "<p>©2023/ Shopify, Inc.</p>",
       "brand_image_width": 100,
       "social_facebook_link": "",
       "social_instagram_link": "",
@@ -294,15 +287,11 @@
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {
-            "color_scheme": "background-1"
-          }
+          "settings": {}
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {
-            "color_scheme": "background-1"
-          }
+          "settings": {}
         }
       }
     }
