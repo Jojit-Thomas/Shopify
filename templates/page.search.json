@@ -27,7 +27,7 @@
         "show-search-bar": true,
         "heading": "Stays",
         "redirect-to": "/pages/listings",
-        "listing-per-row": 5,
+        "listing-per-row": 6,
         "listing-per-page": 25,
         "search-button-color": "#ef3b3e",
         "search-icon-color": "#ffffff",
