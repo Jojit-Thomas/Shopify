@@ -20,7 +20,7 @@
     "search_Bkypk4": {
       "type": "search",
       "settings": {
-        "destination": false,
+        "destination": true,
         "show-type-selection": true,
         "type-selection": "COMMON",
         "show-badge": true,
