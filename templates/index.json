@@ -216,7 +216,6 @@
     },
     "shopbnb_ai_home_dTP9AK": {
       "type": "shopbnb_ai_home",
-      "disabled": true,
       "settings": {
         "container-width": "fullWidth",
         "redirect-to": "/pages/listings"
