@@ -150,7 +150,7 @@
     "blocks": {
       "16893408973407606025": {
         "type": "shopify://apps/shopbnb-dev/blocks/chat/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     }
