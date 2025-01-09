@@ -91,6 +91,7 @@
     },
     "shopbnb_ai_home_kmcpMK": {
       "type": "shopbnb_ai_home",
+      "disabled": true,
       "settings": {
         "container-width": "fullWidth",
         "redirect-to": "/pages/search"
@@ -228,7 +229,6 @@
       "blocks": {
         "shopbnb_dev_search_listing_section_9wmwYG": {
           "type": "shopify://apps/shopbnb-dev/blocks/search_listing_section/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "disabled": true,
           "settings": {
             "destination": false,
             "template": "default",
