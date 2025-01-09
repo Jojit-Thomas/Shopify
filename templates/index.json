@@ -24,6 +24,7 @@
             "show-search-bar": true,
             "tags": true,
             "filter-by-tag": "",
+            "location-name": "",
             "heading": "Stays",
             "redirect-to": "/a/bnb/listings",
             "listing-per-row": 4,
@@ -90,7 +91,6 @@
     },
     "shopbnb_ai_home_kmcpMK": {
       "type": "shopbnb_ai_home",
-      "disabled": true,
       "settings": {
         "container-width": "fullWidth",
         "redirect-to": "/pages/search"
@@ -183,6 +183,7 @@
             "show-search-bar": true,
             "tags": true,
             "filter-by-tag": "Hotels,Orlando",
+            "location-name": "",
             "heading": "",
             "redirect-to": "/a/bnb/listings",
             "listing-per-row": 4,
@@ -227,6 +228,7 @@
       "blocks": {
         "shopbnb_dev_search_listing_section_9wmwYG": {
           "type": "shopify://apps/shopbnb-dev/blocks/search_listing_section/72772b25-4dc1-44d2-be7e-e3bc439206f3",
+          "disabled": true,
           "settings": {
             "destination": false,
             "template": "default",
@@ -236,12 +238,13 @@
             "show-search-bar": true,
             "tags": false,
             "filter-by-tag": "",
+            "location-name": "",
             "heading": "Stays",
             "redirect-to": "",
             "listing-per-row": 4,
             "listing-per-page": 8,
             "search-button-color": "#ef3b3e",
-            "search-icon-color": "#fff",
+            "search-icon-color": "#ffffff",
             "card-border-radius": 10,
             "search-bar-border-radius": 999,
             "search-input-border-radius": 10,
