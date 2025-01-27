@@ -33,7 +33,7 @@
             "card-border-radius": 10,
             "search-bar-border-radius": 999,
             "search-input-border-radius": 10,
-            "container-width": "limitWidth",
+            "container-width": "fullWidth",
             "search-bar-box-shadow": false
           }
         }
