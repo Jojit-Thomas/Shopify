@@ -16,7 +16,7 @@
           "type": "shopify://apps/shopbnb-dev/blocks/search_listing_section/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
           "settings": {
             "destination": false,
-            "template": "sleek",
+            "template": "default",
             "show-type-selection": true,
             "type-selection": "COMMON",
             "show-badge": true,
