@@ -26,7 +26,7 @@
             "location-name": "",
             "heading": "Stays",
             "redirect-to": "",
-            "listing-per-row": 4,
+            "listing-per-row": 2,
             "listing-per-page": 8,
             "search-button-color": "#ef3b3e",
             "search-icon-color": "#ffffff",
