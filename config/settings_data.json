@@ -148,9 +148,14 @@
     },
     "content_for_index": [],
     "blocks": {
+      "5915842606863315968": {
+        "type": "shopify://apps/shopbnb-dev/blocks/chat/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
+        "disabled": false,
+        "settings": {}
+      },
       "7924418359578431505": {
         "type": "shopify://apps/seoant-ai-seo/blocks/seoant-core/8e57283b-dcb0-4f7b-a947-fb5c57a0d59d",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
