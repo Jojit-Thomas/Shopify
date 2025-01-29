@@ -162,6 +162,11 @@
         "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": true,
         "settings": {}
+      },
+      "10451867072034003575": {
+        "type": "shopify://apps/shopbnb-dev/blocks/currency/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
