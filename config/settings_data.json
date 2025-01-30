@@ -165,7 +165,7 @@
       },
       "10451867072034003575": {
         "type": "shopify://apps/shopbnb-dev/blocks/currency/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
