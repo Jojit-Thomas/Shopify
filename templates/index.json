@@ -20,7 +20,7 @@
             "show-type-selection": true,
             "type-selection": "COMMON",
             "show-badge": true,
-            "show-map": false,
+            "show-map": true,
             "show-search-bar": false,
             "tags": true,
             "filter-by-tag": "",
