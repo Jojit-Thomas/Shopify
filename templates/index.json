@@ -54,10 +54,17 @@
         "container-width": "fullWidth",
         "redirect-to": "/pages/search"
       }
+    },
+    "compare_qw9Fan": {
+      "type": "compare",
+      "settings": {
+        "container-width": "limitWidth"
+      }
     }
   },
   "order": [
     "1724579751aa04f24f",
-    "shopbnb_ai_home_kmcpMK"
+    "shopbnb_ai_home_kmcpMK",
+    "compare_qw9Fan"
   ]
 }
