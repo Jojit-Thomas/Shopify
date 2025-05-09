@@ -167,6 +167,21 @@
         "type": "shopify://apps/shopbnb-dev/blocks/chat/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
         "disabled": false,
         "settings": {}
+      },
+      "746019785517": {
+        "type": "shopify://apps/appsections/blocks/plan0/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
+        "disabled": false,
+        "settings": {}
+      },
+      "746019785518": {
+        "type": "shopify://apps/appsections/blocks/plan1/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
+        "disabled": false,
+        "settings": {}
+      },
+      "746019785519": {
+        "type": "shopify://apps/appsections/blocks/plan2/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
