@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1724579751aa04f24f": {
+      "type": "apps",
+      "blocks": {
+        "shopbnb_dev_search_listing_section_WV9RQL": {
+          "type": "shopify:\/\/apps\/shopbnb-dev\/blocks\/search_listing_section\/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
+          "disabled": true,
+          "settings": {
+            "destination": true,
+            "template": "default",
+            "show-type-selection": false,
+            "type-selection": "COMMON",
+            "show-badge": true,
+            "show-map": true,
+            "show-search-bar": true,
+            "tags": false,
+            "filter-by-tag": "",
+            "location-name": "Kochi",
+            "heading": "Stays",
+            "redirect-to": "",
+            "listing-per-row": 2,
+            "listing-per-page": 6,
+            "search-button-color": "#ef3b3e",
+            "search-icon-color": "#ffffff",
+            "card-border-radius": 10,
+            "search-bar-border-radius": 999,
+            "search-input-border-radius": 10,
+            "container-width": "fullWidth",
+            "search-bar-box-shadow": false
+          }
+        }
+      },
+      "block_order": [
+        "shopbnb_dev_search_listing_section_WV9RQL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "shopbnb_ai_home_kmcpMK": {
+      "type": "shopbnb_ai_home",
+      "disabled": true,
+      "settings": {
+        "container-width": "fullWidth",
+        "redirect-to": "\/pages\/search"
+      }
+    },
+    "compare_qw9Fan": {
+      "type": "compare",
+      "settings": {
+        "container-width": "limitWidth"
+      }
+    }
+  },
+  "order": [
+    "1724579751aa04f24f",
+    "shopbnb_ai_home_kmcpMK",
+    "compare_qw9Fan"
+  ]
+}
