@@ -98,20 +98,23 @@
         "padding_bottom": 28
       }
     },
-    "1735711791ea01b82d": {
+    "175843317170e65ef4": {
       "type": "apps",
       "blocks": {
-        "shopbnb_dev_listing_product_template_xWaj3t": {
-          "type": "shopify://apps/shopbnb-dev/blocks/listing_product_template/72772b25-4dc1-44d2-be7e-e3bc439206f3",
-          "settings": {
-            "save-for-later-text": "",
-            "container-width": "limitWidth"
-          }
+        "fields_personalizer_app_block_7k8WDR": {
+          "type": "shopify://apps/fields-personalizer/blocks/app_block/be85361a-4b91-4076-ba54-73344853be66",
+          "settings": {}
         }
       },
       "block_order": [
-        "shopbnb_dev_listing_product_template_xWaj3t"
+        "fields_personalizer_app_block_7k8WDR"
       ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1735711791ea01b82d": {
+      "type": "apps",
       "disabled": true,
       "settings": {
         "include_margins": true
@@ -121,6 +124,7 @@
   "order": [
     "main",
     "related-products",
+    "175843317170e65ef4",
     "1735711791ea01b82d"
   ]
 }
