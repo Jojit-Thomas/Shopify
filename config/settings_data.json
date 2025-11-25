@@ -167,27 +167,12 @@
         "type": "shopify://apps/shopbnb-dev/blocks/chat/1dca22cf-c6ce-4d59-9139-df45c4ab1941",
         "disabled": false,
         "settings": {}
-      },
-      "746019785517": {
-        "type": "shopify://apps/appsections/blocks/plan0/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
-        "disabled": false,
-        "settings": {}
-      },
-      "746019785518": {
-        "type": "shopify://apps/appsections/blocks/plan1/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
-        "disabled": false,
-        "settings": {}
-      },
-      "746019785519": {
-        "type": "shopify://apps/appsections/blocks/plan2/a50ed1b1-d2ec-48a1-bedc-2adc2606e88e",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
   "presets": {
     "Default": {
-      "shopbnb_host": "http://localhost:3004/dist",
+      "shopbnb_host": "http://3004-dev.jojit.in/dist",
       "logo_width": 50,
       "colors_solid_button_labels": "#ffffff",
       "colors_accent_1": "#121212",
