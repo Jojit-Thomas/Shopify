@@ -1516,3 +1516,54 @@
   ]
 }
 {% endschema %}
+
+
+{%- comment -%}
+  ============================
+  JSON-LD: Product aggregateRating (Review/Rating aggregation)
+  Adds review and rating data to existing Product structured data
+  ============================
+{%- endcomment -%}
+{%- assign rating_value = blank -%}
+{%- assign review_count = blank -%}
+
+{%- if product.metafields.reviews.rating.value -%}
+  {%- assign rating_value = product.metafields.reviews.rating.value | round: 1 -%}
+{%- elsif product.metafields.okendo.star_rating_average -%}
+  {%- assign rating_value = product.metafields.okendo.star_rating_average | round: 1 -%}
+{%- elsif product.metafields.judgeme.badge_average -%}
+  {%- assign rating_value = product.metafields.judgeme.badge_average | round: 1 -%}
+{%- elsif product.metafields.loox.avg_rating -%}
+  {%- assign rating_value = product.metafields.loox.avg_rating | round: 1 -%}
+{%- elsif product.metafields.stamped.reviews_average -%}
+  {%- assign rating_value = product.metafields.stamped.reviews_average | round: 1 -%}
+{%- endif -%}
+
+{%- if product.metafields.reviews.rating_count -%}
+  {%- assign review_count = product.metafields.reviews.rating_count -%}
+{%- elsif product.metafields.okendo.review_count -%}
+  {%- assign review_count = product.metafields.okendo.review_count -%}
+{%- elsif product.metafields.judgeme.review_count -%}
+  {%- assign review_count = product.metafields.judgeme.review_count -%}
+{%- elsif product.metafields.loox.num_reviews -%}
+  {%- assign review_count = product.metafields.loox.num_reviews -%}
+{%- elsif product.metafields.stamped.reviews_count -%}
+  {%- assign review_count = product.metafields.stamped.reviews_count -%}
+{%- endif -%}
+
+{%- if rating_value != blank and review_count != blank and rating_value > 0 and review_count > 0 -%}
+{%- assign product_url = shop.url | append: product.url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "@id": "{{ product_url }}#product",
+  "url": {{ product_url | json }},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ rating_value | json }},
+    "reviewCount": {{ review_count | json }}
+  }
+}
+</script>
+{%- endif -%}
