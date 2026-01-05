@@ -1,2 +1,76 @@
 User-agent: *
 Allow: /
+
+# SEO & AI Discovery Engine - Optimized for search engines and AI bots
+# Note: Checkout and customer areas remain blocked by Shopify's default Disallow rules
+
+# Sitemap directive - CRITICAL for SEO (helps search engines discover all pages)
+Sitemap: https://quickstart-f37d8f1d.myshopify.com/sitemap.xml
+# Note: llms.txt is discovered via Allow rules below, not via Sitemap directive
+
+# Allow Googlebot to crawl public content (standard search engine)
+# Note: Homepage (/) is allowed by default, we only need to explicitly allow public content paths
+User-agent: Googlebot
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout, cart, orders, account, and admin remain blocked by default Disallow rules
+
+# Allow Bingbot to crawl public content (standard search engine)
+User-agent: Bingbot
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout, cart, orders, account, and admin remain blocked by default Disallow rules
+
+# Allow GPTBot (OpenAI) to crawl public product pages
+User-agent: GPTBot
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout and customer areas remain blocked by default Disallow rules
+
+# Allow ChatGPT-User (OpenAI) to crawl public product pages
+User-agent: ChatGPT-User
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout and customer areas remain blocked by default Disallow rules
+
+# Allow anthropic-ai (Anthropic Claude) to crawl public product pages
+User-agent: anthropic-ai
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout and customer areas remain blocked by default Disallow rules
+
+# Allow Claude-Web (Anthropic) to crawl public product pages
+User-agent: Claude-Web
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Checkout and customer areas remain blocked by default Disallow rules
+
+# Explicitly allow public content for all crawlers (User-agent: *)
+# This clarifies that public content is allowed despite the many Disallow rules above
+# Note: Disallow rules are more specific and still block checkout/customer areas
+User-agent: *
+Allow: /products/
+Allow: /collections/
+Allow: /pages/
+Allow: /blogs/
+Allow: /apps/a/llms.txt
+# Homepage (/) is allowed by default when no explicit Disallow exists
+# All Disallow rules from above still apply (checkout, cart, orders, account, admin, etc.)
